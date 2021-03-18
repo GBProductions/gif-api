@@ -4,13 +4,15 @@
 </head>
 <body>
   <div class="container">
-    <h1>Get Gif's Of Famous People by Searching Their Names!</h1>
-    <label for="name">Enter a Name:</label>
-    <input id="name" type="text">
-    <button class="btn-success" id="famousName">Get A Gif!</button>
+    <form id="famousName">
+      <h1>Get Gif's Of Famous People by Searching Their Names!</h1>
+      <label for="name">Enter a Name:</label>
+      <input id="name" type="text">
+      <button class="btn-success" id="submitButton" type="submit">Get A Gif!</button>
+    </form>
     <div class="showErrors"></div>
     <div class="showName"></div>
-    <div class="showGif"></div>
+    <p>Here is the Gif we found for that person:<span id="showGif"></span></p>
   </div>
 </body>
 </html>
